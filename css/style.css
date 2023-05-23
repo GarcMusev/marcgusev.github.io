@@ -15,6 +15,18 @@ body{
     background-image: linear-gradient(to bottom, #000000, #ffffff);
 }
 
+
+.fab, .fas{
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.fab:hover, .fas:hover{
+    transform: scale(1.1);
+}
+
+
+
 #bewerbungsfoto{
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9);
     margin-top: 50px;

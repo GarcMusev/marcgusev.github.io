@@ -17,28 +17,66 @@
       <a class="navbar-brand" href="#">
         <img src="img/logo (1).png" width="50" height="50">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#about">About me</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              My University Projects
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  </header>
+
+
+ 
+  <div class="background-gradient1">
+
+
+    <div class="container-fluid">
+
+      <h2 class="display-2 text-center text-black" id="University">Über mich</h2>
+      <div class="row">
+        <div class="offcanvas offcanvas-size-xl offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <img src="img/LebenslaufOhneFoto.jpg" width="100%" height="auto" alt="Bewerbungsfoto Marc Gusev">
+            <a href="link/LebenslaufOhneFoto.pdf.zip" class="btn btn-dark">Download</a>
+          </div>
+        </div>
+
+        <div class="col text-center">
+              
+            <a class="nav-link dropdown-toggle" href="#coding" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              
+                    <img src="img/keyboard.png" class="img-fluid logo">
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#University">Single Page Application</a></li>
               <li><a class="dropdown-item" href="#University">Bücher Shop</a></li>
               <li><a class="dropdown-item" href="#University">Dating App Softwarearchitektur</a></li>
             </ul>
-          </li>
 
-          <li class="nav-item dropdown">
+        </div>
+        
+
+        <div class="col-9">
+          <div class="card border-0 bg-transparent h-100">
+            <img class="card-img-top rounded mx-auto d-block"  src="img/bewerbungsFoto.PNG" id="bewerbungsfoto" alt="Bewerbungsfoto Marc Gusev">
+            <div class="card-body mx-auto text-center">
+              <p class="card-text text-black">
+                       Willkommen auf meiner Website! Mein Name ist Marc Gusev, ich bin 22 Jahre alt und studiere Medieninformatik in Berlin. Neben meinem Studium lebe ich meine Leidenschaft für das Filmemachen aus und habe im Laufe der Zeit eine Portfolio Webite von meinen ganzen Projekten programmiert.
+                       Auf meiner Website kannst du einen Einblick in meine Arbeit gewinnen und einige meiner Projekte anschauen.
+                       Wenn du Fragen hast oder an einer Zusammenarbeit interessiert bist, stehe ich gerne zur Verfügung. Vielen Dank für deinen Besuch und viel Spaß beim Erkunden meiner Website</p>
+              <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Mein Lebenslauf</button>
+              </div>
+            </div>
+        </div>
+
+        <div class="col">
+          
             <a class="nav-link dropdown-toggle" href="#university" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              My Video Projects
+              <img src="img/cam.png" class="img-fluid logo">
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#Movie">1. Hidden Beauty</a></li>
@@ -48,95 +86,61 @@
               <li><a class="dropdown-item" href="#University Lunch Sport">5. University Lunch Break</a></li>
               <li><a class="dropdown-item" href="#Jewrovision Motion Graphic">6. Motion Graphic</a></li>
             </ul>
-          </li>
-        </ul>
-
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-dark" type="submit">Search</button>
-        </form>
+        
+        </div>
       </div>
     </div>
-  </nav>
-  </header>
- 
-  <div class="background-gradient1">
 
 
-    <div class="offcanvas offcanvas-size-xl offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-      <div class="offcanvas-header">
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <img src="img/LebenslaufOhneFoto.jpg" width="100%" height="auto" alt="Bewerbungsfoto Marc Gusev">
-        <a href="link/LebenslaufOhneFoto.pdf.zip" class="btn btn-dark">Download</a>
-      </div>
-    </div>
-  
-      <div class="card mb-1 mx-auto bg-transparent" id="about" style="max-width: 600px;">
-        <div class="row g-0 ">
-          <div class="col-md-0">
-            <img class="img-fluid rounded mx-auto d-block" src="img/bewerbungsFoto.PNG" id="bewerbungsfoto"width="50%" height="auto" alt="Bewerbungsfoto Marc Gusev">
-          </div>
-          <div class="col">
-            <div class="card-body mx-auto">
-              <h5 class="card-title">Über mich</h5>
-              <p class="card-text">
-              Willkommen auf meiner Website! Mein Name ist Marc Gusev, ich bin 22 Jahre alt und studiere Medieninformatik in Berlin. Neben meinem Studium lebe ich meine Leidenschaft für das Filmemachen aus und habe im Laufe der Zeit eine Portfolio Webite von meinen ganzen Projekten programmiert.</p>
-              <p>Auf meiner Website kannst du einen Einblick in meine Arbeit gewinnen und einige meiner Projekte anschauen. </p>
-              <p>Wenn du Fragen hast oder an einer Zusammenarbeit interessiert bist, stehe ich gerne zur Verfügung. Vielen Dank für deinen Besuch und viel Spaß beim Erkunden meiner Website</p>
-              <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Mein Lebenslauf</button>
+   
+
+    <h2 class="display-2 text-center text-white" id="coding" style="margin-top: 200px; margin-bottom: 100px;">Coding</h2>
+      <div class="row row-cols-1row-cols-md-3 g-5 "> 
+        <div class="col">
+          <div class="card bg-transparent h-100">
+            <img src="img/Sonnensystem.png" class="img-fluid" alt="Sonnensystem Website">
+            <div class="card-body">
+              <h5 class="card-title">Sonnensystem Website</h5>
+              <p class="card-text">Ein reines Frontend-Projekt, das mit SASS entwickelt wurde. Es ist ein interaktives Online-Wiki, das es Benutzern ermöglicht, Informationen über unser Sonnensystem zu entdecken. Das Projekt kombiniert ansprechendes Design, benutzerfreundliche Navigation und eine Fülle von interessanten Informationen über Planeten, Monde, Sterne und andere Himmelskörper.</p>
+              <a href="link/Planeten.zip"" target="_blank" class="btn btn-dark">Download</a>
+              <p class="card-text"><small class="fst-italic">5 Semester 2023, BHT Berlin</small></p>
             </div>
           </div>
-        </div>
-      </div>
-  
-
-    <h2 class="display-2 text-center text-white" id="University" style="margin-top: 200px; margin-bottom: 100px;">My University Projects</h2>
-    <div class="row row-cols-1  row-cols-md-3 g-5"> 
+        </div> 
+    
       <div class="col">
         <div class="card bg-transparent h-100">
-          <img src="img/Sonnensystem.png" class="img-fluid" alt="Sonnensystem Website">
+          <img src="img/YLBD1.png"  class="img-fluid" alt="Book Shop">
           <div class="card-body">
-            <h5 class="card-title">Sonnensystem Website</h5>
-            <p class="card-text">Frontend Webdevelopment with Sass and JavaScript </p>
-            <a href="link/Planeten.zip"" target="_blank" class="btn btn-dark">Download</a>
-            <p class="card-text"><small class="fst-italic">5 Semester 2023, BHT Berlin</small></p>
+            <h5 class="card-title">Your Local Book Dealer - Book Shop</h5>
+            <p class="card-text"> Das Django-basierte Buchshop-Projekt bietet den Nutzern die Möglichkeit, sich einzuloggen,
+                                  Bücher mit Beschreibungen und Sternbewertungen hinzuzufügen sowie in einer intuitiven und benutzerfreundlichen Umgebung zu stöbern und einzukaufen.
+                                  Der Buchshop ist mit dem Django-Framework entwickelt worden, was es ermöglicht hat, die Backend-Logik des Projekts effizient zu gestalten und dabei auf bewährte Python-Prinzipien zurückzugreifen.</p>
+            <a href="link/BücherShop.zip" target="_blank" class="btn btn-dark">Download</a>
+            <p class="card-text"><small class="fst-italic">4 Semester 2022, Berlin</small></p>
           </div>
         </div>
-      </div> 
-  
-    <div class="col">
-      <div class="card bg-transparent h-100"">
-        <img src="img/YLBD1.png" class="img-fluid" alt="Book Shop">
-        <div class="card-body">
-          <h5 class="card-title">Your Local Book Dealer - Book Shop</h5>
-          <p class="card-text">Book Shop programmed with Python and Django Framework</p>
-          <a href="link/BücherShop.zip" target="_blank" class="btn btn-dark">Download</a>
-          <p class="card-text"><small class="fst-italic">4 Semester 2022, Berlin</small></p>
+      </div>
+    
+      <div class="col">
+        <div class="card bg-transparent h-100"">
+          <img src="img/Dafe.png"  class="img-fluid" alt="Poorbird Skate Park">
+          <div class="card-body">
+            <h5 class="card-title">Dafe - Safe Dating App</h5>
+            <p class="card-text">Mithilfe des StarUML-Tools wurde eine gut durchdachte und robuste Architektur geschaffen, die die Funktionalität und Skalierbarkeit von der Dating App "Dafe" gewährleistet.
+              Die Architektur basiert auf einer modularen und komponentenbasierten Struktur, die es ermöglicht, verschiedene Funktionalitäten der Dating-App zu isolieren und unabhängig voneinander zu entwickeln und zu warten.</p>
+            <a href="link/" target="_blank" class="btn btn-dark">Download</a>
+            <p class="card-text"><small class="fst-italic">4, 5 Semester 2022/23, Berlin</small></p>
+          </div>
         </div>
       </div>
     </div>
-  
-    <div class="col">
-      <div class="card bg-transparent h-100"">
-        <img src="img/Dafe.png" class="img-fluid" alt="Poorbird Skate Park">
-        <div class="card-body">
-          <h5 class="card-title">Dafe - Safe Dating App</h5>
-          <p class="card-text">Building a Software Architecture with Star-UML</p>
-          <a href="link/" target="_blank" class="btn btn-dark">Download</a>
-          <p class="card-text"><small class="fst-italic">4, 5 Semester 2022/23, Berlin</small></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
   </div>
 
 
   <div class="background-gradient2">
 
-    <h2 class="display-2 text-center text-white" id="Movie"style="margin-top: 200px; margin-bottom: 100px;">My Video Projects</h2>
+    <h2 class="display-2 text-center text-white" id="Movie"style="margin-top: 200px; margin-bottom: 100px;">Movies</h2>
     
     <div class="row row-cols-1 row-cols-md-2 g-5"> 
       <div class="col">
@@ -144,7 +148,9 @@
           <img src="img/HiddenBeaty.JPG" class="img-fluid" alt="Hidden Beaty Fashion Brand">
           <div class="card-body">
             <h5 class="card-title">Hidden Beauty</h5>
-            <p class="card-text"> Ein Fashion Brand Project für das 4 Semester an der HTW im Studiengang Modedesign. Mai 2022, Berlin</p>
+            <p class="card-text">Der High Fashion Werbefilm präsentiert die Strickwaren von "Hidden Beauty" auf kreative und inspirierende Weise.
+                  Der Film zeigt nicht nur die Strickmode der Marke, sondern erkundet auch das Konzept der Schönheit und wie es durch die Kleidung zum Ausdruck gebracht werden kann
+                                Der Fokus des Films liegt nicht nur auf die hochwertigen Strickwaren der Marke, sondern erkundet auch das Konzept der Schönheit und wie es durch die Kleidung zum Ausdruck gebracht werden kann </p>
             <a href="https://drive.google.com/file/d/1o1GTN6BI3vxjpErp4Xf6Bkbj5cxqtFhl/view?usp=sharing" target="_blank" class="btn btn-dark">Anschauen</a>
             <p class="card-text"><small class="text-body-secondary">Mai 2022, Berlin</small></p>
           </div>
@@ -157,7 +163,8 @@
         <img src="img/Anthropocene.png" class="img-fluid" alt="The Anthropocene Fashion Brand">
         <div class="card-body">
           <h5 class="card-title">The Anthropocene</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text">Ein weiteres Fashion Filmprojekt, das in der Platte in Berlin gedreht wurde, präsentiert eine faszinierende Verbindung zwischen Mode und einer ikonischen urbanen Umgebung.
+             In Zusammenarbeit mit der Fashion Brand "The Anthroposcene" wurde eine einzigartige audiovisuelle Erfahrung geschaffen, die die Atmosphäre von de Location einfängt und die Kleidungsstücke der Marke auf kreative Weise zur Geltung bringt.</p>
           <a href="https://drive.google.com/file/d/1knJ9QgRDYW4yStHX-ZOju0Pd2_zHF1H3/view?usp=sharing" target="_blank" class="btn btn-dark">Anschauen</a>
           <p class="card-text"><small class="text-body-secondary">April 2023, Berlin</small></p>
         </div>
@@ -169,7 +176,8 @@
         <img src="img/Poorbird.png" class="img-fluid" alt="Poorbird Skate Park">
         <div class="card-body">
           <h5 class="card-title">Poordbird Skate Park</h5>
-          <p class="card-text">Skate Video for introducing the new local CLub in Köpenick November 2022, Berlin.</p>
+          <p class="card-text">
+            Das Skate Park Video zum neuen, aufstrebenden Park in Schöneweide ist ein aufregendes Projekt, das die Skateboarding-Szene und die einzigartige Atmosphäre des Parks einfängt. Als Videograf hatte ich die Möglichkeit, die Vielfalt der Skate-Features und die Energie der Skateboarder in einem mitreißenden Film festzuhalten.</p>
           <a href="https://drive.google.com/file/d/1NecLDjJHBWSPRosicH4X3F4meP4SoGMV/view?usp=share_link" target="_blank" class="btn btn-dark">Anschauen</a>
           <p class="card-text"><small class="text-body-secondary">November 2021, Berlin</small></p>
         </div>
@@ -181,7 +189,7 @@
         <img src="img/LostPlace.png" class="img-fluid"  alt="The ANthropocene Fashion Brand">
         <div class="card-body">
           <h5 class="card-title">Lost Place Calisthenics</h5>
-          <p class="card-text">Calisthenics Moves in an old Industrial Hall </p>
+          <p class="card-text">Das Sportvideo zeigt einen beeindruckenden Sportler, der Calisthenics an einem Lost Place, einer ehemaligen Stahlwerk, betreibt. Das Video verbindet die Ästhetik und Herausforderungen der Calisthenics-Übungen mit der faszinierenden Atmosphäre des verlassenen Industriegeländes.</p>
           <a href="https://drive.google.com/file/d/1cBfSCzGEa36dDyk2WKxFRrZdRW18ntLr/view?usp=sharing" target="_blank" class="btn btn-dark">Anschauen</a>
           <p class="card-text"><small class="text-body-secondary">Juni 2020, Dortmund</small></p>
         </div>
@@ -193,7 +201,7 @@
         <img src="img/TUDortmund.png" class="img-fluid" alt="The ANthropocene Fashion Brand">
         <div class="card-body">
           <h5 class="card-title">University Lunch Break</h5>
-          <p class="card-text">Random creating a short sportmovie with a student August 2019, Dortmund</p>
+          <p class="card-text">Das spontane Calisthenics-Video, das am Sportpark an der Universität Dortmund aufgenommen wurde, zeigt die Dynamik und Vielseitigkeit der Sportart. Es präsentiert zwei talentierte Athleten, die verschiedene Calisthenics-Übungen an den Geräten des Sportparks ausführen.</p>
           <a href="https://drive.google.com/file/d/1OT4Ot6Lmn7Sz5LgT8xUhRT265H0I0lyu/view?usp=share_link" target="_blank" class="btn btn-dark">Anschauen</a>
           <p class="card-text"><small class="text-body-secondary">Ausgust 2019, Dortmund</small></p>
         </div>
@@ -205,7 +213,7 @@
         <img src="img/EMUNA.png" class="img-fluid" alt="Jewrovision Motion Graphic">
         <div class="card-body">
           <h5 class="card-title">Motion Graphic for Jewrovision Song Contest 2022</h5>
-          <p class="card-text">Random creating a short sportmovie with a student August 2019, Dortmund</p>
+          <p class="card-text">Das animierte Motion Graphic Video, das die Künstler aus Dortmund im Hintergrund ihres Acts bei der Jewrovision 2022 in Berlin begleitet. Eine kreative und farbenfrohe Darstellung der vielfältigen Talente und der lebendigen jüdischen Kunstszene in Dortmund. Indem  animierte Szenen, stilisierte Porträts, mitreißende Musik und animierte Textelemente mit der Adobe Cloud erstellt wurden.</p>
           <a href="https://drive.google.com/file/d/1KNwPe0hOcfn_y6KMrb4pls1R6YueG0gm/view?usp=share_link" target="_blank" class="btn btn-dark">Anschauen</a>
           <p class="card-text"><small class="text-body-secondary"> Mai 2022, Berlin</small></p>
         </div>

@@ -2,14 +2,21 @@ body{
     background-image: ulr("img/code.jpeg");
     background-color: black;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 100vw
-    
+    max-width: 100vw;
+    font-size: larger;
 }
 
 
 
 
+h3{
+    margin-bottom: 10%;
+}
+
+
+
 .background-gradient1{
+
     background-image: linear-gradient(to top, #000000, #ffffff);
 }
 
@@ -91,6 +98,4 @@ body{
 .offcanvas-size-xl {
     --bs-offcanvas-width: min(95vw, 50%) !important;
 }
-
-
 

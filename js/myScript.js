@@ -1,5 +1,2 @@
-const image = document.querySelector('.img-fluid');
-
-setTimeout(function() {
-  image.classList.add('fade-out');
-}, 5000);
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))

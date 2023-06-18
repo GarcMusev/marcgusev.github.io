@@ -1,18 +1,27 @@
+@font-face{
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Light.ttf")
+    ;
+}
+
+@font-face{
+    font-family: "Sunshine";
+    src: url("../fonts/Maximum\ Impact.ttf")
+    ;
+}
+
 body{
-    background-image: ulr("img/code.jpeg");
+
     background-color: black;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 100vw;
-    font-size: larger;
+    font-family: "Roboto" ;
+  
 }
 
 
 
-
-h3{
-    margin-bottom: 10%;
+h5{
+    font-family: "Sunshine";
 }
-
 
 .card-body{
     color: white;
@@ -40,6 +49,10 @@ h3{
     background-image: linear-gradient(to top, #000000, #ffffff);
 }
 
+.offcanvas {
+    background-color: #ffffff; /* Set your desired background color here */
+  }
+
 .background-gradient2{
     background-image: linear-gradient(to bottom, #000000, #ffffff);
 }
@@ -60,7 +73,7 @@ h3{
 }
 
 .img-fluid.logo:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 #bewerbungsfoto{
@@ -102,10 +115,9 @@ h3{
     height: 200px;
 }
 
-.offcanvas-size-xl {
-    --bs-offcanvas-width: min(95vw, 50%) !important;
+.modal-backdrop{
+    background-color: transparent;
 }
-
 
 #bewerbungsfoto{
     margin: 0;

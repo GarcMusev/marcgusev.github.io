@@ -14,7 +14,9 @@
     <title>Marc Gusev Portfolio</title>
 </head>
 <body>
-  <header >
+  <header>
+  
+    
 
     <div class="col d-flex flex-column bg-white" id="linkLeiste">
       <a href="https://www.instagram.com/marc_gusev/" style="color:black"><i class="fab fa-instagram fa-2x"></i></a>
@@ -23,8 +25,7 @@
       <a href="mailto:gusevmarc@gmail.com" style="color:black"><i class="fas fa-envelope fa-2x"></i></a>
     </div>
   <nav class="row bg-white text-center">
-   
-    <div class="col align-content-center bg-white">
+    <div class="col bg-white">
       <a class="navbar-brand mx-auto" href="#">
         <img src="img/GarcGif.gif" width="300px" height="auto">
       </a>
@@ -34,16 +35,23 @@
   </nav>
   </header>
 
-
-  
  
 <div class="background-gradient1" >
 
+  
+
+  
   <div class="row">
-    <div class="col-sm-12 col-md-6 text-center" style="height: max-content;">
+    <div class="col text-center d-block">
+      <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#aboutme" role="button" aria-controls="offcanvasExample" style="background-color: transparent; border: none;"><img src="img/pixelMe.png" class="img-fluid logo" data-bs-toggle="tooltip"  data-bs-placement="bottom"  title="About me"></a>
+    </div> 
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-4 text-center" style="height: max-content;">
         <div class="btn-group">
           <a class="nav-link " href="#university" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="img/pixelCam.png" class="img-fluid logo"   data-bs-toggle="tooltip"  data-bs-placement="bottom" title="My Movies" >
+            <img src="img/pixelCam.png" class="img-fluid logo"   data-bs-toggle="tooltip"  data-bs-placement="top" title="My Movies" >
           </a>
           <ul class="dropdown-menu bg-black">
             <li><a class="dropdown-item  text-light" href="#Movie">1. Hidden Beauty</a></li>
@@ -55,11 +63,16 @@
           </ul>
         </div>
     </div>
+
+
+    <div class="col-sm-12 col-md-4 text-center">
+      <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#lebenslauf" role="button" aria-controls="offcanvasExampleLabel" style="background-color: transparent; border: none;"><img src="img/Lebenslauf.png" class="img-fluid logo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Mein Lebenslauf"></a>
+    </div>
   
-    <div class="col-sm-12 col-md-6 text-center" style="height: max-content;">
+    <div class="col-sm-12 col-md-4 text-center" style="height: max-content;">
       <div class="btn-group">
         <a class="nav-link" href="#coding" role="button" data-bs-toggle="dropdown" aria-expanded="false">     
-          <img src="img/keyboard.png" class="img-fluid logo" data-bs-toggle="tooltip"  data-bs-placement="bottom" title="My Coding Projects">
+          <img src="img/keyboard.png" class="img-fluid logo" data-bs-toggle="tooltip"  data-bs-placement="top" title="My Coding Projects">
         </a>
         <ul class="dropdown-menu bg-black">
           <li><a class="dropdown-item  text-light" href="#coding">Single Page Application</a></li>
@@ -70,41 +83,6 @@
     </div>
   </div>
 
-  <div class="offcanvas offcanvas-size-xl offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-    <div class="offcanvas-header">
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-      <img src="img/LebenslaufOhneFoto.jpg" width="100%" height="auto" alt="Bewerbungsfoto Marc Gusev">
-      <a href="link/LebenslaufOhneFoto.pdf.zip" class="btn btn-dark">Download</a>
-    </div>
-  </div>
-
- 
-
-
-
-    <div class="row">
-      <div class="col text-center">
-        <button style="background-color: transparent; border: none;" type="button" data-bs-toggle="offcanvas" data-bs-target="#aboutme" aria-controls="aboutme"><img src="img/pixelMe.png" class="img-fluid logo" data-bs-toggle="tooltip"  data-bs-placement="bottom"  title="About me"></button> 
-
-        <div class="offcanvas offcanvas-start"  tabindex="-1" id="aboutme" aria-labelledby="aboutmeLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="aboutmeLabel"> About me</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-              <img src="img/BewerbungsFotoAnimation.gif" id="bewerbungsfoto">
-              <p>
-                Willkommen auf meiner Website! Mein Name ist Marc Gusev, ich bin 22 Jahre alt und studiere Medieninformatik in Berlin. Neben meinem Studium lebe ich meine Leidenschaft für das Filmemachen aus und habe im Laufe der Zeit eine Portfolio Webite von meinen ganzen Projekten programmiert.
-                Auf meiner Website kannst du einen Einblick in meine Arbeit gewinnen und einige meiner Projekte anschauen.
-                Wenn du Fragen hast oder an einer Zusammenarbeit interessiert bist, stehe ich gerne zur Verfügung. Vielen Dank für deinen Besuch und viel Spaß beim Erkunden meiner Website</p>    
-          </div>
-
-        </div>
-
-      </div> 
-    </div>
    
 
     <h2 class="display-2 text-center text-white" id="coding" style="margin-top: 400px; margin-bottom: 100px;">Coding</h2>
@@ -166,7 +144,7 @@
             <div class="card-body">
               <h5 class="card-title">Hidden Beauty</h5>
               <p class="card-text">Der High Fashion Werbefilm präsentiert die Strickwaren von "Hidden Beauty" auf kreative und inspirierende Weise.
-                    Der Film zeigt nicht nur die Strickmode der Marke, sondern erkundet auch das Konzept der Schönheit und wie es durch die Kleidung zum Ausdruck gebracht werden kann
+                   
                                   Der Fokus des Films liegt nicht nur auf die hochwertigen Strickwaren der Marke, sondern erkundet auch das Konzept der Schönheit und wie es durch die Kleidung zum Ausdruck gebracht werden kann </p>
               <p class="card-text"><small class="text-body-secondary">Mai 2022, Berlin</small></p>
             </div>
@@ -181,8 +159,8 @@
           <img src="img/Anthropocene.png" class="img-fluid" alt="The Anthropocene Fashion Brand">
           <div class="card-body">
             <h5 class="card-title">The Anthropocene</h5>
-            <p class="card-text">Ein weiteres Fashion Filmprojekt, das in der Platte in Berlin gedreht wurde, präsentiert eine faszinierende Verbindung zwischen Mode und einer ikonischen urbanen Umgebung.
-              In Zusammenarbeit mit der Fashion Brand "The Anthroposcene" wurde eine einzigartige audiovisuelle Erfahrung geschaffen, die die Atmosphäre von de Location einfängt und die Kleidungsstücke der Marke auf kreative Weise zur Geltung bringt.</p>
+            <p class="card-text">Ein weiteres Fashion Filmprojekt, das in der Platte in Berlin gedreht wurde, stellt die Verbindung zwischen Mode und einer ikonischen urbanen Umgebung dar.
+              In Zusammenarbeit mit der Fashion Brand "The Anthroposcene" wurde eine ungewöhnliche audiovisuelle Erfahrung geschaffen, die die Atmosphäre von der Location einfängt und die Kleidungsstücke der Marke auf eine kreative Weise zur Geltung bringt.</p>
             <p class="card-text"><small class="text-body-secondary">April 2023, Berlin</small></p>
           </div>
         </div>
@@ -196,7 +174,7 @@
           <div class="card-body">
             <h5 class="card-title">Poordbird Skate Park</h5>
             <p class="card-text">
-              Das Skate Park Video zum neuen, aufstrebenden Park in Schöneweide ist ein aufregendes Projekt, das die Skateboarding-Szene und die einzigartige Atmosphäre des Parks einfängt. Als Videograf hatte ich die Möglichkeit, die Vielfalt der Skate-Features und die Energie der Skateboarder in einem mitreißenden Film festzuhalten.</p>
+              Das Skate Park Video zum neuen, aufstrebenden Park in Schöneweide war ein aufregendes Projekt, das die Skateboarding-Szene und die Atmosphäre des Parks einfängt. Als Videograf hatte ich die Möglichkeit, die Vielfalt der Skate-Features und die Energie der Skateboarder in einem mitreißenden Film festzuhalten.</p>
           
             <p class="card-text"><small class="text-body-secondary">November 2021, Berlin</small></p>
           </div>
@@ -210,7 +188,7 @@
           <img src="img/LostPlace.png" class="img-fluid"  alt="The ANthropocene Fashion Brand">
           <div class="card-body">
             <h5 class="card-title">Lost Place Calisthenics</h5>
-            <p class="card-text">Das Sportvideo zeigt einen beeindruckenden Sportler, der Calisthenics an einem Lost Place, einer ehemaligen Stahlwerk, betreibt. Das Video verbindet die Ästhetik und Herausforderungen der Calisthenics-Übungen mit der faszinierenden Atmosphäre des verlassenen Industriegeländes.</p>
+            <p class="card-text">Das Sportvideo zeigt einen talentierten Sportler, der Calisthenics in einem ehemaligen Stahlwerk betreibt. Das Video verbindet die Ästhetik und Herausforderungen der Calisthenics-Übungen mit der faszinierenden Atmosphäre des verlassenen Industriegeländes.</p>
             <p class="card-text"><small class="text-body-secondary">Juni 2020, Dortmund</small></p>
           </div>
         </div>
@@ -237,7 +215,7 @@
           <img src="img/EMUNA.png" class="img-fluid" alt="Jewrovision Motion Graphic">
           <div class="card-body" style="color: black;">
             <h5 class="card-title">Motion Graphic for Jewrovision Song Contest 2022</h5>
-            <p class="card-text">Das animierte Motion Graphic Video, das die Künstler aus Dortmund im Hintergrund ihres Acts bei der Jewrovision 2022 in Berlin begleitet. Eine kreative und farbenfrohe Darstellung der vielfältigen Talente und der lebendigen jüdischen Kunstszene in Dortmund. Indem  animierte Szenen, stilisierte Porträts, mitreißende Musik und animierte Textelemente mit der Adobe Cloud erstellt wurden.</p>
+            <p class="card-text">Ein animiertes Motion Graphic Video, das die Künstler aus Dortmund im Hintergrund ihres Acts bei der Jewrovision 2022 in Berlin begleitet hat. Eine kreative und farbenfrohe Darstellung der vielfältigen Talente und der lebendigen jüdischen Kunstszene in Dortmund. Indem  animierte Szenen, stilisierte Porträts, mitreißende Musik und animierte Textelemente mit der Adobe Cloud erstellt wurden.</p>
             
             <p class="card-text"><small class="text-body-secondary"> Mai 2022, Berlin</small></p>
           </div>
@@ -252,11 +230,41 @@
    
   </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
-    <script src="./js/myScript.js"> </script>
-   
 
+
+
+ 
+  </div>
+
+ <div class="offcanvas offcanvas-start"  tabindex="-1" id="aboutme" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <h2 class="offcanvas-title">About me</h2>
+      <button  type="button" class="btn-close" data-bs-dismiss="offcanvas">
+      </div>
+    <div class="offcanvas-body text-center">
+      <img src="img/BewerbungsFotoAnimation.gif" id="bewerbungsfoto">
+  
+        <p style="margin-top: 50px;">
+          
+          Willkommen auf meiner Website! Mein Name ist Marc Gusev, ich bin 22 Jahre alt und studiere Medieninformatik in Berlin. Neben meinem Studium lebe ich meine Leidenschaft für das Filmemachen aus und habe im Laufe der Zeit eine Portfolio Webite von meinen ganzen Projekten programmiert.
+          Auf meiner Website kannst du einen Einblick in meine Arbeit gewinnen und einige meiner Projekte anschauen.
+          Wenn du Fragen hast oder an einer Zusammenarbeit interessiert bist, stehe ich gerne zur Verfügung. Vielen Dank für deinen Besuch und viel Spaß beim Erkunden meiner Website</p>  
+    </div>
+  </div>
+
+
+
+  <div class="offcanvas offcanvas-size-xl offcanvas-end" data-bs-scroll="true" tabindex="-1" id="lebenslauf" aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header ">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <img src="img/LebenslaufOhneFoto.jpg" width="100%" height="auto" alt="Bewerbungsfoto Marc Gusev">
+      <a href="link/LebenslaufOhneFoto.pdf.zip" class="btn btn-dark">Download</a>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/myScript.js"> </script>
 
 </body>
 </html>

@@ -93,12 +93,11 @@ p{
 
 #bewerbungsfoto{
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9);
-    margin-top: 50px;
     transition: transform 0.3s ease;
 }
 
 #bewerbungsfoto:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 
@@ -119,6 +118,19 @@ p{
     color: black;   
 }
 
+#btn-back-to-top {
+    position: fixed;
+    opacity: 0.5;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+
+#btn-back-to-top:hover{
+
+    opacity: 1;
+}
+
 
 .row{
     margin: 0px;
@@ -136,11 +148,11 @@ p{
 
 #bewerbungsfoto{
     margin: 0;
-    border: solid 10px black;
+    border:  5px solid black;
 }
 
 
 .offcanvas-size-xl {
-    --bs-offcanvas-width: min(68vh, 50%) !important;
+    --bs-offcanvas-width: min(65vh, 50%) !important;
 }
 

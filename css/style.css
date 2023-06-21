@@ -25,7 +25,7 @@ h2{
 }
 
 h5{
-    text-decoration: underline;
+  
     font-size: 30px;
     font-family: "Roboto Bold" ;
 }
@@ -73,6 +73,10 @@ p{
 }
 
 
+.col-md{
+    margin-bottom: 100px;
+}
+
 .fab, .fas{
     margin: 10px;
     transition: transform 0.3s ease;
@@ -93,13 +97,7 @@ p{
 
 #bewerbungsfoto{
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9);
-    transition: transform 0.3s ease;
 }
-
-#bewerbungsfoto:hover{
-    transform: scale(1.05);
-}
-
 
 .card:first-of-type {
     color: white;
